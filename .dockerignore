@@ -1,6 +1,10 @@
 # Old implementation
 old_implementation/
 
+# Version control
+.git
+.gitignore
+
 # Dependencies
 node_modules/
 yarn-debug.log*
@@ -21,9 +25,21 @@ build/
 *.swp
 *.swo
 
+# Docker
+Dockerfile
+.dockerignore
+
 # OS
 .DS_Store
 Thumbs.db
 
 # Data directory
-/data/
+data/
+test_data/
+
+# Test files
+*_test.go
+
+# Misc
+README.md
+*.md 
